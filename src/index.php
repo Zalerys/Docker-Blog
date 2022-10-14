@@ -1,16 +1,23 @@
-<?php 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="./Page/login/connectUser.php">Index Page</a>
+ 
+</body>
+</html>
 
-echo "test";
 
-$dsn = 'mysql:host=db:3306;dbname=data';
-$user = 'root';
-$pdw = 'password';
-$pdo = new PDO($dsn, $user, $pdw);
 
-// $db = 'data';
-// $pdo->exec( statement: "CREATE DATABASE IF NOT EXISTS '$db");
-$query = $pdo->query('SHOW TABLES');
-print_r($query->fetchall( mode: PDO::FETCH_ASSOC));
+
+
+
+
 
 
 

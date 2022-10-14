@@ -1,0 +1,19 @@
+.container{
+    padding: 5%;
+    display: flow-root;
+}
+
+.connect{
+    display: flex;
+    gap: 5%;
+    margin-top: 10%;
+}
+
+.login{
+    /* display: none; */
+}
+
+.register{
+    /* display: none; */
+
+}
