@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Index</title>
 </head>
 <body>
-    <a href="./Page/login/connectUser.php">Index Page</a>
- 
+    <a href="./Page/Login/login.php">Login</a>
+    <a href="./Page/Register/register.php">Register</a>
 </body>
 </html>
 
